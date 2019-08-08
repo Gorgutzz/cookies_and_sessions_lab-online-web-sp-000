@@ -7,4 +7,4 @@ class ProductsController < ApplicationController
         cart << params[:product]
         redirect_to :index
     end
-end 
+end
