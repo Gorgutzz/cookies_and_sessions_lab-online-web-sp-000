@@ -6,7 +6,7 @@
 
 <h2>Add a Product</h2>
 
-<%= form_tag('/add') do %>
+<%= form_tag products_path do %>
   <%= label_tag 'product' %>
   <%= text_field_tag('product') %>
   <%= submit_tag "add to cart" %>
