@@ -5,3 +5,9 @@
 <% end %>
 
 <h2>Add a Product</h2>
+
+<%= form_tag('/add') do %>
+  <%= label_tag 'product' %>
+  <%= text_field_tag('product') %>
+  <%= submit_tag "add to cart" %>
+<% end %>
